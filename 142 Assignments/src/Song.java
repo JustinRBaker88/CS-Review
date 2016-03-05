@@ -1,3 +1,11 @@
+// First assignment from CS 142 Homework list.
+// The program is supposed to print out the output of the song
+// and match the desired output exactly. An optional seventh verse
+// is also added.
+//
+// This project is supposed to implement basic usage of methods to reduce
+// redundancy. I added loops, parameters, and some basic recursion in my
+// code for the assignment.
 
 public class Song {
 
@@ -39,7 +47,7 @@ public class Song {
 			verse(day - 1);
 	}
 
-	// Returns string for the first, second, third, etc abbreviations/contractions
+	// Returns a string for the first, second, third, etc abbreviations/contractions
 	// Accepts an int Parameter to determine which abbreviation to return
 	private static String getContraction(int day) {
 		String Con;
